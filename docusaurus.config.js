@@ -54,6 +54,11 @@ const config = {
         ({
             // Replace with your project's social card
             image: 'img/horsa-social-card.png',
+            docs: {
+                sidebar: {
+                    hideable: true,
+                },
+            },
             navbar: {
                 title: 'Horsa Way',
                 logo: {
@@ -63,9 +68,21 @@ const config = {
                 items: [
                     {
                         type: 'docSidebar',
-                        sidebarId: 'tutorialSidebar',
+                        sidebarId: 'businessCentralSidebar',
                         position: 'left',
-                        label: 'Tutorial',
+                        label: 'Business Central',
+                    },
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'powerPlatformSidebar',
+                        position: 'left',
+                        label: 'Power Platform',
+                    },
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'powerAppsSidebar',
+                        position: 'left',
+                        label: 'Power Apps',
                     },
                     {
                         href: 'https://github.com/horsa-way/learning-center',
@@ -81,8 +98,8 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
+                                label: 'Tutorial Docusaurus',
+                                to: '/docs/tutorial/intro',
                             },
                         ],
                     },

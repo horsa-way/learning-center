@@ -1,64 +1,70 @@
 import clsx from 'clsx';
-import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+    {
+        title: 'Business Central',
+        Img: require('@site/static/img/home-business-central.png').default,
+        link: '/docs/business-central/intro',
+        description: (
+            <>
+                Corso base e avanzato per imparare a sviluppare su Microsoft Business Central.
+            </>
+        ),
+    },
+    {
+        title: 'Power Platform',
+        Img: require('@site/static/img/home-power-platform.png').default,
+        link: '/docs/power-platform/intro',
+        description: (
+            <>
+                Una panoramica dei prodotti integrati all'interno di Microsoft Power Platform.
+            </>
+        ),
+    },
+    {
+        title: 'Power Apps',
+        Img: require('@site/static/img/home-power-apps.png').default,
+        link: '/docs/power-apps/intro',
+        description: (
+            <>
+                Corso per imparare a sviluppare applicazioni aziendali con Microsoft Power Apps.
+            </>
+        ),
+    },
 ];
 
-function Feature({Svg, title, description}) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
+function Feature({ Img, title, link, description }) {
+    return (
+        <div className={clsx('col col--4')}>
+            <div className="text--center">
+                <img src={Img} className={styles.featureImg} />
+                <div className="text--center padding-horiz--md">
+                    <p>{description}</p>
+                </div>
+                <div className={styles.buttons}>
+                    <Link
+                        className="button button--primary button--lg"
+                        to={link}>
+                        {title}
+                    </Link>
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default function HomepageFeatures() {
-  return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+    return (
+        <section className={styles.features}>
+            <div className="container">
+                <div className="row">
+                    {FeatureList.map((props, idx) => (
+                        <Feature key={idx} {...props} />
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
 }
