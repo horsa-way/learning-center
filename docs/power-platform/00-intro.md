@@ -1,5 +1,5 @@
 
-# Power Platform
+# Introduzione a Power Platform
 
  Power Platform è una piattaforma low-code, perfettamente integrata con Microsoft 365, Dynamics 365 e Microsoft Azure. Power Platform è la giusta soluzione per le aziende, in quanto utilizza un approccio con poco codice e riduce così il tempo che le risorse di sviluppo dedicano a lavorare sugli elementi, come schermate, automazione e tanto altro.
  Oltre, quindi, ai vantaggi in termini di cosi, Power Platform contribuisce ad aumentare le prestazioni e l'efficienza dell'azienda. È una piattaforma intuitiva, collaborativa e estensibile di strumenti per creare soluzioni efficienti e flessili. 
@@ -12,6 +12,19 @@
 * **Power BI**, per analizzare dati aziendali;
 * **Power Virtual Agents**, per creare chatbot intelligenti;
 * **Power Pages**, per la creazione, l'hosting e la gestione di moderni siti Web aziendali.
+
+![Power Platform](/img/power-platform/power-platform-2.png)
+
+Oltre ai prodotti sopra elencati, sono disponibili strumenti aggiuntivi che migliorano le soluzioni create in Power Platform. Alcuni di questi sono:
+* **AI Builder** consente a utenti e sviluppatori di aggiungere le funzionalità di intelligenza artificiale che creano e utilizzano ai flussi di lavoro e Power Apps. AI Builder è una soluzione che consente di aggiungere facilmente l'intelligenza a flussi di lavoro o app per prevedere i risultati e migliorare le prestazioni aziendali senza scrivere codice.
+* **Microsoft Dataverse** è un servizio dati scalabile e una piattaforma di app che consente agli utenti di archiviare e gestire in modo sicuro i dati da diverse fonti e di integrare tali dati nelle applicazioni business usando un Common Data Model per garantire facilità e coerenza agli utenti. Microsoft Dataverse è lo strumento comune che consente ai componenti di Power Platform di funzionare in sinergia. È la base che consente il consolidamento, la visualizzazione e l'elaborazione dei dati.
+* I **connettori** permettono di connettere app, dati e dispositivi nel cloud. Considerare i connettori come il ponte attraverso il quale scorrono informazioni e comandi. I connettori possono essere usati da Power Apps, flussi di Power Automate e app per la logica. Sono disponibili più di 900 connettori predefiniti per Power Platform, che consentono a tutti i dati e le azioni di connettersi in modo coerente. Esempi di connettori popolari includono Salesforce, Office 365, Twitter, Dropbox, servizi Google e molto altro ancora.
+
+Power Platform aiuta le organizzazioni a creare **soluzioni** in grado di soddisfare le esigenze in continua evoluzione. Power Platform aumenta l'agilità aziendale consentendo alle organizzazioni di creare **rapidamente** applicazioni in ore o giorni, anziché in settimane o mesi. Questa velocità di sviluppo **assicura** che quando le soluzioni vengono create, sono ancora qualcosa che forniscono valore. Il valore aziendale in genere estende il miglioramento a più fattori di valore, come il miglioramento delle prestazioni, i risparmi sui costi diretti/indiretti, la mitigazione dei rischi e la trasformazione aziendale.
+
+La velocità di sviluppo delle app consente alle organizzazioni di disporre di una libreria di applicazioni per facilitare le operazioni quotidiane. Queste app possono includere soluzioni per scenari di lavoro in prima linea, ad esempio soluzioni amministrative di back-office per la gestione delle strutture come la gestione del personale e l'onboarding dei dipendenti e molte altre.
+
+## In breve
 
 ### Vantaggi della Power Platform
 1. **Basso Codice e Accessibilità**: la Power Platform adotta un approccio a basso codice, consentendo agli utenti di creare applicazioni e flussi di lavoro senza dover scrivere una grande quantità di codice.
@@ -30,7 +43,7 @@
 
  ### Link di riferimento
 
- * [Cos'è Microsoft Power Platform](https://www.cegeka.com/it/it/solutions/dynamics365/solutions/power-platform) 
  * [Documentazione dell'amministratore di Microsoft Power Platform](https://learn.microsoft.com/it-it/power-platform/admin/)
+ * [Cos'è Microsoft Power Platform](https://www.cegeka.com/it/it/solutions/dynamics365/solutions/power-platform) 
  * [Microsoft Power Platform più nel dettaglio](https://www.pipeline.it/formazione/blog/alla-scoperta-della-power-platform/#txt)
 
