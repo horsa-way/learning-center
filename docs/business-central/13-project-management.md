@@ -1,5 +1,5 @@
 
-# Project Design
+# Project Management
 
 Per il successo di un progetto è fondamentale la definizione di **fasi e metodologie** che guidino il percorso dall'ideazione all'implementazione. La combinazione di fasi ben definite e di una metodologia strategica può influenzare in modo significativo l'esito di progetti complessi, per questo Microsoft ha definito il modello **"Success by Design"**, un modello usato per guidare i progetti sulla sua piattaforma.
 

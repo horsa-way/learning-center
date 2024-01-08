@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'AI e BC'
+sidebar_label: 'Copilot'
 ---
 
 # Intelligenza Artificiale, Copilot e Business Central
