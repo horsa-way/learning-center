@@ -14,9 +14,9 @@ Un **ambiente** è uno **spazio** in cui **archiviare**, **gestire** e **condivi
      - Per gli ambienti con **versione di valutazione** (basati su **abbonamento**), ogni abbonamento alla versione di valutazione basato su offerta dà diritto al tenant a tre ambienti con versione di valutazione basati su abbonamento. Solo gli amministratori a livello di tenant possono eseguire il provisioning degli ambienti con versione di valutazione.
      - Per gli ambienti con **versione di valutazione** (**standard**), l'utente necessita di una licenza che fornisce diritti per utente per gli ambienti con versione di valutazione (fai riferimento alla tabella precedente). Questo vale anche per gli amministratori a livello di tenant.
 
-> [**!NOTE**]
-> Un **ambiente sandbox** è un ambiente non di produzione di Microsoft Dataverse. Poiché è isolato dalla produzione, un ambiente sandbox è ideale per sviluppare in modo sicuro e testare le modifiche dell'applicazione con basso rischio.
-
+:::info Important
+Un **ambiente sandbox** è un ambiente non di produzione di Microsoft Dataverse. Poiché è isolato dalla produzione, un ambiente sandbox è ideale per sviluppare in modo sicuro e testare le modifiche dell'applicazione con basso rischio.
+:::
 
 Gli utenti che desiderano creare una versione di valutazione standard possono **ottenere la licenza** necessaria **gratuitamente** iscrivendosi alla versione di valutazione di Power Apps tramite uno di questi percorsi:
 
@@ -61,9 +61,9 @@ Abilita app Dynamics 365             |   Selezionare **Sì** e fare una selezion
 Distribuisci le app e i dati di esempio  |   Selezionare Sìper includere le app e i dati di esempio. I dati di esempio consentono di sperimentare durante l'apprendimento. Per visualizzare questa impostazione, è necessario selezionare **No** per **Abilita app Dynamics 365**.|
 Gruppo di sicurezza  |    Seleziona un gruppo di sicurezza per limitare l'accesso a questo ambiente. Per l'accesso aperto, seleziona **Nessuno**.  Questo campo è ora obbligatorio.|
 
-
-> [**!IMPORTANT**]
->Se non hai bisogno delle app Dynamics 365 o non devi utilizzare Dataverse e stai creando app canvas usando Power Apps o flussi usando Power Automate utilizzando altre origini dati, crea l'ambiente **senza il database Dataverse**.
+:::info Important
+Se non hai bisogno delle app Dynamics 365 o non devi utilizzare Dataverse e stai creando app canvas usando Power Apps o flussi usando Power Automate utilizzando altre origini dati, crea l'ambiente **senza il database Dataverse**.
+:::
 
 ### Creare un ambiente senza un database
 

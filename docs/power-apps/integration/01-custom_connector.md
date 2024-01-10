@@ -1,7 +1,5 @@
 # Connettori personalizzati
 
-## Cosa sono i connettori
-
 I **connettori** semplificano la **connessione di app** e **flow maker** ad altre app, dati e dispositivi nel cloud nei seguenti modi:
 
 - La connessione viene eseguita in un modo coerente e ripetibile che può essere rilevato dai produttori.

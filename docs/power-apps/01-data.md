@@ -68,8 +68,11 @@ Le sorgenti dati supportati dal gateway sono:
 - DB2
 - Filesystem
 
-> [**!CAUTION**]
-> L’utilizzo delle sorgenti dati locali, impatterà sulle licenze necessarie a creare ed eseguire la vostra app. Se scegliete un data source locale, avrete bisogno di una licenza PowerApps P1 o P2.
+
+
+:::info Caution
+L’utilizzo delle sorgenti dati locali, impatterà sulle licenze necessarie a creare ed eseguire la vostra app. Se scegliete un data source locale, avrete bisogno di una licenza PowerApps P1 o P2.
+:::
 
 ## Lab 1: Data modeling
 
