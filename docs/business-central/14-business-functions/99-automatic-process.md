@@ -5,7 +5,7 @@ Business central ha un sistema di temporizzazione di processi automatici che per
 
 In questa pagina vedremo un caso di esempio: proveremo a creare un processo automatico che ogni giorno alle 18:00 registri tutte le journal squash create durante la giornata.
 
-Riutilizzeremo il codice che abbiamo scritto nell'[esercizio del posting](./posting/exercise) per creare il nostro processo automatico.
+Riutilizzeremo il codice che abbiamo scritto nell'[esercizio del posting](../posting/exercise) per creare il nostro processo automatico.
 
 ## Funzione da lanciare
 Per prima cosa dobbiamo creare la codeunit che conterrà il codice che verrà eseguito. 
