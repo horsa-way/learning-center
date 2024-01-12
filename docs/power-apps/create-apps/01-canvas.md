@@ -1,29 +1,19 @@
-
-# Creazione Applicazioni
-
-Power Apps è una piattaforma per lo sviluppo di app aziendali ad alta produttività e offre quattro componenti principali:
-
-- **App canvas**
-- **App basate su modello**
-- **Schede**
-- **Microsoft Dataverse**
-
-### App Canvas
+# Canvas app
 
 Le app canvas ti consentono di partire con la tua esperenza utente per sviluppare un'**interfaccia altamente personalizzata** utilizzando canvas vuote e collegandole a una gamma di oltre 200 origini dati. Le app canvas offrono la flessibilità necessaria per organizzare l'interfaccia e l'esperienza utente in base alle tue esigenze. 
 
 Puoi iniziare a creare l'app dagli strumenti Microsoft in cui risiedono i tuoi dati, ad esempio:
 
-- ### **Da un elenco di SharePoint**:
+- ### Crea app canvas da un elenco di SharePoint
    1. In SharePoint Online, apri un elenco e quindi seleziona **Integra** > **Power Apps** > **Crea un'app**.
 
-   ![Creare un'app](../../static/img/power-apps/generate-new-app.png)
+   ![Creare un'app](/img/power-apps/generate-new-app.png)
 
    1. Nel pannello che viene visualizzato digita un nome per l'app e seleziona **Crea**.
 
 Viene visualizzata una nuova scheda nel Web browser che mostra l'app creata in base all'elenco. L'app viene visualizzata in Power Apps Studio, dove puoi personalizzarla.
 
-- ### **Da una dashboard di Power BI**
+- ### Crea app canvas da una dashboard di Power BI
 
 Quando si aggiunge l'oggetto visivo di Power Apps al report, Power Apps Studio viene avviato con una 
 **connessione dati in tempo reale** tra Power Apps e Power BI. 
@@ -34,21 +24,21 @@ Quando si aggiunge l'oggetto visivo di Power Apps al report, Power Apps Studio v
 
    1. Nel riquadro Visualizzazioni selezionare l'**icona di Power Apps** e quindi ridimensionare l'oggetto visivo in base allo spazio creato. 
 
-   ![Creare app in Power BI](../../static/img/power-apps/power-bi-powerapps-icon.png)
+   ![Creare app in Power BI](/img/power-apps/power-bi-powerapps-icon.png)
 
    4. Nell'oggetto visivo Power Apps selezionare l'ambiente Power Apps in cui si vuole creare l'app e quindi selezionare **Crea nuovo**.
 
-   ![Crea nuova](../../static/img/power-apps/power-bi-create-new-powerapp.png)
+   ![Crea nuova](/img/power-apps/power-bi-create-new-powerapp.png)
 
    5. In Power Apps Studio si noterà che viene creata un'app di base, con una raccolta che mostra uno dei campi selezionati in Power BI. 
 
-![Raccolta dei campi in Power Apps Studio](../../static/img/power-apps/power-bi-power-app.png)
+![Raccolta dei campi in Power Apps Studio](/img/power-apps/power-bi-power-app.png)
 
 Con Power Apps puoi trovare o creare la tua app in diversi modi:
 
-- ### **Dai dati** (es. SharePoint)
+- ### Crea app canvas dai dati (es. SharePoint)
 
-- ### **Da un esempio**:
+- ### Crea app canvas da un esempio
 
   1. Accedi a Power Apps. 
 
@@ -56,9 +46,9 @@ Con Power Apps puoi trovare o creare la tua app in diversi modi:
 
   1. In **Inizia da modello** scegli un'app di esempio nell'elenco delle app di esempio, ad esempio **Cost Estimator**. 
 
-![Creare app da un esempio](../../static/img/power-apps/cost-estimator-app.png)
+![Creare app da un esempio](/img/power-apps/cost-estimator-app.png)
 
-- ### **Da un'orgine Dataverse**
+- ### Crea app canvas da un'orgine Dataverse
 
 In Power Apps, crea un'app canvas basata su un elenco di account di esempio in Dataverse. In questa app è possibile visualizzare l'elenco di tutti gli account e i dettagli di un singolo account e creare, aggiornare o eliminare un account. 
 
@@ -73,7 +63,7 @@ In Power Apps, crea un'app canvas basata su un elenco di account di esempio in D
  3. Selezionare una tabella, quindi **Crea app**.
 
 
-- ### **Da una canvas vuota**
+- ### Crea app canvas da una canvas vuota
 
 Sviluppa un'app canvas per gestire i dati archiviati in Dataverse, usando tabelle standard, tabelle personalizzate o entrambe. 
 
@@ -91,50 +81,31 @@ Per creare un'app da zero che utilizzi i dati di Dataverse, il primo passaggio �
 
 1. Seleziona **Crea** per creare l'app canvas da modello vuoto. 
 
-- ### **Tramite AppSource**
+- ### Crea app canvas tramite AppSource
 
 Le app compilate e pubblicate con Power Apps vengono individuate e utilizzate sul Web in Dynamics 365. E' possibile cercare le app, filtrare per ambiente e aggiungere le app di uso più frequente nella parte superiore della pagina.
 
-![Cercare le app](../../static/img/power-apps/apps-dynamics365.png)
+![Cercare le app](/img/power-apps/apps-dynamics365.png)
 
 Microsoft AppSource è ora incorporato nella home pagne delle app Microsoft 365 e negli elementi di esploarazione comuni. Seleziona **Ottieni altre app** nella home page o nel riquadro attività e passa alla scheda **Organizzazione** per visualizzare le app disponibili. 
 
-![Ottieni altre app - App disponibili](../../static/img/power-apps/getmoreapps_1.png)
+![Ottieni altre app - App disponibili](/img/power-apps/getmoreapps_1.png)
 
-### App basate sul modello
+### Lab 3: Canvas app
 
-La progettazione app basata sul modello è un aprroccio che si concentra sull'aggiunta di componenti come **moduli**, **visualizzazioni**, e **grafici** e **dashboard** a **tabelle** utilizzando uno strumento di progettazione app. Inoltre, le **relazioni** collegano le tabelle in modo da consentire la navigazione tra esse e garantire che i dati non vengano ripetuti inutilmente.
+**Esercizio proposto** : [Esercitazione Lab 23 - Canvas app](https://microsoftlearning.github.io/PL-400_Microsoft-Power-Platform-Developer/Instructions/Labs/LAB%5BPL-400%5D_Lab03_Canvas_App.html) 
 
-Le app basate su modello sono particolarmente adatte all'elaborazione di app basate su dati ad alta densità e consentono agli utenti di spostarsi facilmente tra i record correlati. 
+**Obiettivo**: Man mano che continuiamo a creare la nostra soluzione, progetteremo un'app canvas di Power Apps che gli ispettori useranno sul campo sui loro dispositivi mobili. Le app canvas sono app low-code che possono essere progettate per i layout di un tablet o di un telefono cellulare. Costruirai un'app canvas a due schermi che consente agli ispettori di accedere ed elaborare rapidamente le ispezioni.
 
-- ### Creare app basata sul modello
+Seguiremo i passaggi di base seguenti per progettare l'app canvas:
 
-   1. Accedi a Power Apps. 
-
-   1. Seleziona l'ambiente desiderato oppure passa a **Interfaccia di amministrazione Power Platform** per crearne uno nuovo. 
-
-   1. E' consigliato creare l'app basata su modello da una soluzione. Una soluzione è un pacchetto che può contentere tabelle, moduli, viste, app, flussi e altri componenti di Dataverse.
-
-   1. Nel riquadro di spostamento a sinistra, seleziona **Soluzioni**. Se l'elemento non si trova nel riquadro di navigazione a sinistra, seleziona …Altro, quindi l'elemento desiderato.
-
-   1. Selezionare **Nuova soluzione**. Ulteriori informazioni: Creare una soluzione.
-
-   1. Immetti un **Nome visualizzato** per la soluzione, ad esempio **Training Power Apps**. Successivamente, aggiungi la tabella account che verrà inclusa nell'app basata su modello.
-
-   1. Nella soluzione, seleziona **Aggiungi esistente**, quindi seleziona **Tabella**.
-
-   1. Nella schermata **Aggiungi tabelle esistenti** seleziona la tabella **Account**, quindi seleziona **Avanti**.
-
-   1. Seleziona **Includi tutti i componenti** e quindi seleziona **Aggiungi**. Ora che hai una soluzione e hai aggiunto la tabella account, puoi creare un'app basata su modello.
-
-   1. Nella soluzione seleziona **Nuovo**, seleziona **App** e quindi seleziona **App basata su modello**.
-
-   1. Immetti un nome per l'app, ad esempio Nuova app personalizzata2 e quindi seleziona **Crea**.
-
-
-- **Modellazione dei dati**
-
-Sebbene siano chiamate app basate su modelli, spesso è più facile pensarle come app basate su **modello di dati**. Questo perchè, senza un modello di dati ospitato in **Microsoft Dataverse**, non puoi creare un'app basata su modello.
+- Creare l'app usando il fattore di forma del tablet.
+- Connettiti a Microsoft Dataverse come origine dati.
+- Configurare un controllo raccolta per visualizzare le ispezioni in sospeso.
+- Utilizza una visualizzazione Microsoft Dataverse per popolare la galleria.
+- Configurare una pagina di dettaglio con le informazioni sull'ispezione.
+- Gestire il salvataggio dei risultati dell'ispezione in Microsoft Dataverse.
+- Esportare la soluzione con il modello di dati e le app e importarla nell'ambiente "Produzione".
 
 ## Link
 
