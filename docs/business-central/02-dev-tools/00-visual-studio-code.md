@@ -1,6 +1,12 @@
 
 # Visual Studio Code
 
+:::caution Attenzione
+
+**In fase di creazione**.
+
+:::
+
 Visual Studio Code è un editor di codice sorgente leggero ma potente, altamente versatile e ampiamente utilizzato nella comunità degli sviluppatori.
 
 <img src={require('@site/static/img/business-central/vscode.png').default} class='img-left'/>
