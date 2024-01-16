@@ -1,5 +1,5 @@
 
-# Introduzione a Power Apps
+# Introduzione
 
 **Microsoft Power Apps** è lo **strumento** pensato da Microsoft per **consentire** anche a chi non è uno sviluppatore, di **produrre applicazioni custom** e utili allo svolgimento integrato e controllato delle attività quotidiane.
 Questo tool permette di realizzare applicazioni personalizzate in poche ore, anziché mesi, navigabili sia da sistemi operativi Android che iOS. 
