@@ -15,7 +15,7 @@ Non è necessaria una licenza di Power BI per esplorare gli esempi in Power BI D
 Per aprire un file con estensione pbix di Power BI, è necessario ottenere Power BI Desktop.
 
 ### Importare l'esempio nel servizio Power BI
-1. Aprire il servizio Power BI ([app.powerbi.com](app.powerbi.com)) e selezionare **Learn ()** nel riquadro di spostamento a sinistra.
+1. Aprire il servizio Power BI ([app.powerbi.com](https://app.powerbi.com/)) e selezionare **Learn ()** nel riquadro di spostamento a sinistra.
 2. Nella pagina **Centro apprendimento**, in **Report** di esempio, scorrere fino a visualizzare l'esempio di **analisi delle vendite al dettaglio**.
 
    ![Power BI Desktop](/img/power-platform/exc-bi/bi-92.png)
