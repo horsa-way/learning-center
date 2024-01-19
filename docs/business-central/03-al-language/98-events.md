@@ -5,6 +5,8 @@
 
 **In fase di creazione**.
 
+Slide "Academy_20230928_Base Application ed Eventi" da slide 30
+
 :::
 
 ## Link Utili:
