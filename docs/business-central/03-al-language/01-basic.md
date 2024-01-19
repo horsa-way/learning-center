@@ -5,6 +5,8 @@
 
 **In fase di creazione**.
 
+Slide "Academy_20230926_Costrutti di Programmazione"
+
 :::
 
 AL is the programming language that is used for manipulating data such as retrieving, inserting, and modifying records in a Dynamics 365 Business Central database. It controls the execution of the various application objects, such as pages, reports, or codeunits.
@@ -224,12 +226,8 @@ else
 end;
 ```
 
+## Repetitive statements (Cicli iterativi)
 
-
-## Repetitive statements
-
-
-## Cicli iterativi
 
 ## Link utili
 * [Panoramica](https://learn.microsoft.com/it-it/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
