@@ -1,5 +1,5 @@
 # Integrazione con Power Automate
-Lo **scopo** di Power Automate è quello di s**emplificare l’automazione** di una miriade di **attività** e di **processi** aziendali.
+Lo **scopo** di Power Automate è quello di **semplificare l’automazione** di una miriade di **attività** e di **processi** aziendali.
 
 Nella maggior parte dei casi, si tratta di **automatizzare procedure ripetitive** che, quando svolte manualmente, prosciugano il tempo e le energie delle persone coinvolte.
 

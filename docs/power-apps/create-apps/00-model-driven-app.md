@@ -2,18 +2,18 @@
 
 La progettazione app basata sul modello è un approccio che si concentra sull'aggiunta di componenti come **moduli**, **visualizzazioni**, e **grafici** e **dashboard** a **tabelle** utilizzando uno strumento di progettazione app. Inoltre, le **relazioni** collegano le tabelle in modo da consentire la navigazione tra esse e garantire che i dati non vengano ripetuti inutilmente.
 
-Le app basate su modello sono particolarmente adatte all'elaborazione di app basate su dati ad alta densità e consentono agli utenti di spostarsi facilmente tra i record correlati. 
+Le **app basate su modello** sono particolarmente adatte all'elaborazione di app basate su **dati ad alta densità** e consentono agli utenti di **spostarsi facilmente** tra i **record correlati**. 
 
 L'uso della progettazione app consente di creare app semplici o molto complesse con uso limitato di codice o senza codice.
 
 ### Passaggi per creare e condividere un'app basata su modello
 Un'app basata su modello è costituita fondamentalmente dalle seguenti aree.
 
-- Modellazione dei dati aziendali
-- Definizione dei processi aziendali
-- Composizione dell'app
-- Configurazione di ruoli di sicurezza
-- Condivisione dell'app
+- **Modellazione** dei dati aziendali
+- **Definizione** dei processi aziendali
+- **Composizione** dell'app
+- **Configurazione** di ruoli di sicurezza
+- **Condivisione** dell'app
 
 Gran parte del tempo dedicato alla creazione dell'app è dedicato alla modellazione dei dati aziendali e, in alcuni casi, alla definizione dei processi aziendali. La personalizzazione dei ruoli di sicurezza dipenderà dalle esigenze dell'organizzazione.
 

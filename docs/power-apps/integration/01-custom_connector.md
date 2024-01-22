@@ -48,23 +48,21 @@ Puoi scegliere tra le seguenti opzioni per distribuire il connettore personalizz
 
 Per usare lo stesso connettore personalizzato per un'app in App per la logica di Azure, assicurarsi di ricreare il connettore nella sottoscrizione di Azure. Questa attività può essere eseguita utilizzando il download o l'approccio dell'interfaccia della riga di comando menzionato in precedenza. Durante il processo di creazione della connessione personalizzata di App per la logica di Azure, ti verrà richiesto di importare il file OpenAPI scaricato. Dopo aver configurato il connettore personalizzato, è possibile usarlo in App per la logica di Azure nello stesso modo in cui lo utilizzeresti in Power Apps o Power Automate.
 
-E' possibile creare connettori personalizzati per integrare app Canvas o Model-Driven Apps con altre applicazioni non Microsoft. In Microsoft Power Platform, puoi utilizzare Power Automate per creare flussi di lavoro che connettono diverse applicazioni e servizi. Puoi anche creare connettori personalizzati utilizzando Azure Logic Apps.
+E' possibile **creare connettori personalizzati** per **integrare app Canvas** o **Model-Driven Apps** con altre applicazioni non Microsoft. In **Microsoft Power Platform**, puoi **utilizzare Power Automate** per **creare flussi** di lavoro che **connettono diverse applicazioni** e **servizi**. Puoi anche creare connettori personalizzati utilizzando Azure Logic Apps.
 
- Ecco una breve panoramica di come puoi procedere:
+Ecco una breve panoramica di come puoi procedere:
 
-Power Automate:
-
-- Vai su Power Automate (https://flow.microsoft.com/) e crea un nuovo flusso.
+- Vai su **Power Automate** (https://flow.microsoft.com/) e crea un nuovo flusso.
 Puoi utilizzare i connettori esistenti per molte applicazioni popolari.
 Se non trovi un connettore per l'app specifica che desideri integrare, puoi comunque usare azioni personalizzate come l'invio di richieste HTTP per comunicare con API di terze parti.
 Azure Logic Apps:
 
-- Vai su Azure Portal (https://portal.azure.com/) e crea una nuova Azure Logic App.
+- Vai su **Azure Portal** (https://portal.azure.com/) e crea una nuova Azure Logic App.
 In Azure Logic Apps, puoi utilizzare diversi connettori predefiniti, ma puoi anche creare i tuoi connettori personalizzati utilizzando Azure Functions o API Web App.
 Puoi scrivere codice personalizzato per gestire l'integrazione con le API delle applicazioni non Microsoft.
 Connessione con API:
 
-- Se l'applicazione esterna fornisce un'API, puoi creare connettori personalizzati che utilizzano l'azione "Richiesta HTTP" nei flussi di Power Automate o mediante il codice personalizzato in Azure Logic Apps.
+- Se l'applicazione esterna fornisce un'API, puoi creare connettori personalizzati che utilizzano l'azione "**Richiesta HTTP**" nei flussi di Power Automate o mediante il codice personalizzato in Azure Logic Apps.
 Power Apps:
 
 

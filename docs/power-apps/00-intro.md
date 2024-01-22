@@ -20,7 +20,7 @@ Power Apps include funzionalità e strumenti per creare app che non richiedono a
 
 Power Apps "**semplifica**" l'esperienza di creazione di app aziendali personalizzate, consentendo agli utenti di creare app aziendali personalizzate e ricche di funzionalità quasi senza dover scrivere codice.
 
-Microsoft segue l'approccio secondo cui Power Apps può essere creato con poca o nessuna conoscenza di programmazione. In pratica, codice basso significa che non si lavora con i classici comandi di programmazione. Sono invece disponibili **numerose funzioni già pronte**, ad esempio per l'immissione di dati, l'utilizzo della fotocamera, la visualizzazione di mappe e diagrammi, la visualizzazione di file PDF o l'utilizzo del touchscreen. Questi elementi possono essere facilmente organizzati sullo schermo nella sequenza di processo desiderata utilizzando il trascinamento della selezione.
+Microsoft segue l'approccio secondo cui Power Apps può essere creato con poca o nessuna conoscenza di programmazione. In pratica, codice basso significa che non si lavora con i classici comandi di programmazione. Sono invece disponibili **numerose funzioni già pronte**, ad esempio per l'immissione di dati, l'utilizzo della fotocamera, la visualizzazione di mappe e diagrammi, la visualizzazione di file PDF o l'utilizzo del touchscreen. Questi **elementi** possono essere **facilmente organizzati sullo schermo** nella sequenza di processo desiderata utilizzando il trascinamento della selezione.
 
 ## Link
 

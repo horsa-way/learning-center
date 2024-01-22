@@ -31,7 +31,7 @@ Per una versione di valutazione senza app
 
 
 ### Creare un ambiente con un database
-Quando crei un ambiente di produzione o sandbox con un database Dataverse, hai la possibilità di aggiungere app Dynamics 365 come Dynamics 365 Sales e Field Service durante il processo di creazione (scegliendo Sì per Abilita app Dynamics 365). Attualmente, se non selezioni Sì per le app Abilita app Dynamics 365 al momento del provisioning del database, non sarai in grado di apportare questa modifica in un secondo momento né di installare le app Dynamics 365 in questo ambiente. Devi disporre di una licenza Dynamics 365 appropriata per selezionare Sì per Abilita app Dynamics 365.
+Quando **crei un ambiente** di produzione o sandbox con un database Dataverse, hai la **possibilità** di **aggiungere** app Dynamics 365 come **Dynamics 365 Sales** e **Field Service** durante il processo di creazione (scegliendo Sì per Abilita app Dynamics 365). Attualmente, se non selezioni **Sì** per le app Abilita app Dynamics 365 al momento del provisioning del database, non sarai in grado di apportare questa modifica in un secondo momento né di installare le app Dynamics 365 in questo ambiente. Devi disporre di una licenza Dynamics 365 appropriata per selezionare Sì per Abilita app Dynamics 365.
 
 #### Passaggi
 
