@@ -6,7 +6,7 @@
 
  La Power Platform è stata progettata per fornire alle aziende gli strumenti necessari per migliorare la produttività, automatizzare i processi e ottenere insights significativi dai dati. Consentendo la creazione di soluzioni personalizzate senza richiedere una vasta conoscenza di programmazione, la Power Platform apre la porta all'innovazione in tutta l'organizzazione.
  Power Platform racchiude diverse applicazioni: 
- 
+
 * **Power Apps**, per realizzare interfacce personalizzare e usabili su ogni dispositivo;
 * **Power Automate**, per creare automazioni di processi di business;
 * **Power BI**, per analizzare dati aziendali;
