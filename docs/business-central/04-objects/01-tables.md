@@ -5,6 +5,9 @@
 
 **In fase di creazione**.
 
+Slide "4 - Tabelle"
+Unisci con i link utili
+
 :::
 
 ## Link Utili:
