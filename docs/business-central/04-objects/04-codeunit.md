@@ -5,6 +5,9 @@
 
 **In fase di creazione**.
 
+Slide "9 - Codeunit e Funzioni" - Solo la parte di Codeunit
+Unisci con i link utili
+
 :::
 
 ## Link Utili:
