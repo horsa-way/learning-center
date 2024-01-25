@@ -85,7 +85,7 @@ Creare e sincronizzare un repository locale e remoto:
 
 Adesso che abbiamo sia un progetto locale che un repository remoto proviamo a sincronizzarli:
 
-![Sincronizzare](../../../static/img/business-central/git5.png)
+![Sincronizzare](../../../static/img/business-central/git5.png) 
 
 1. **Aprire il progetto di VS Code** creato in precedenza: lo pubblicheremo su github
 

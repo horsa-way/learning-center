@@ -60,9 +60,7 @@ VS Code consente agli autori di estensioni di integrarsi direttamente nell'inter
 
 Installiamo l'estensione per il linguaggio AL. 
 
-**Linguaggio AL**: linguaggio di programmazione per modificare business central. 
-
-Creiamo un nuovo progetto con il comando **AL:GO** dalla Command Palette.
+**Linguaggio AL**: linguaggio di programmazione per modificare business central. Creiamo un nuovo progetto con il comando **AL:GO** dalla Command Palette.
 
 
 

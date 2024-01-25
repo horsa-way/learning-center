@@ -21,7 +21,7 @@ Quando si sviluppa un'estensione, il codice, per impostazione predefinita, è pr
 
 Il pacchetto di sviluppo delle estensioni fornisce un'**impostazione preconfigurata** per la **protezione contro la visualizzazione** o il **download** del codice delle estensioni. Tuttavia, questa **impostazione può essere controllata** anche nel manifest: il file _app.json_.
 
-![Resourse Exposure Policy](/img/business-central/debugger1.png)
+![Resourse Exposure Policy](/img/business-central/debugger1.png) 
 
 E’ possibile specificare un'impostazione denominata **ResourceExposurePolicy** che definisce l'accessibilità delle risorse e del codice sorgente durante diverse operazioni. In particolare:
 
