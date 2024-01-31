@@ -105,7 +105,7 @@ Ciò consente di vedere se i valori effettivamente utilizzati differiscono dai v
 
 **Shortcuts**
 
-![Shortcuts](../../../static/img/business-central/debugger13.png)
+![Shortcuts](/img/business-central/debugger13.png)
 
 - **Step Into (F11)**:
 esegue la riga di codice successiva. Se la riga include una funzione, il debugger entrerà nella funzione ed eseguirà il debug del codice della funzione.
@@ -143,7 +143,7 @@ Nel code viewer, la **riga corrente** è identificata da una **freccia gialla** 
 
 ### Variables
 
-![Variables](../../../static/img/business-central/debugger14.png)
+![Variables](/img/business-central/debugger14.png)
 
 La finestra **Variables** mostra tutte le **variabili incluse nell’ambito della funzione**, **indicando** sia il **valore** che il tipo del **dato**.
 
@@ -154,7 +154,7 @@ Nella **sezione Local** è possibile ottenere informazioni relative alle perform
 
 ### Watch 
 
-![Watch](../../../static/img/business-central/debugger15.png)
+![Watch](/img/business-central/debugger15.png)
 
 La **variabile** è **visualizzata nella finestra Watch** fino a quando non viene rimossa di nuovo. Se viene eseguito il debug di qualcos'altro, verrà visualizzato come fuori ambito. 
 
