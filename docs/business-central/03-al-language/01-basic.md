@@ -1,19 +1,11 @@
 
 # Basi del linguaggio AL
 
-:::caution Attenzione
+AL è il linguaggio di programmazione utilizzato per manipolare i dati, come recuperare, inserire e modificare record in un database di Dynamics 365 Business Central. Controlla l'esecuzione dei vari oggetti dell'applicazione, come pagine, report o codeunit.
 
-**In fase di creazione**.
+Con AL, è possibile creare regole aziendali per garantire che i dati memorizzati nel database siano significativi e coerenti con il modo in cui i clienti gestiscono la loro attività. Attraverso la programmazione AL, è possibile:
 
-Slide "Academy_20230926_Costrutti di Programmazione"
-
-:::
-
-AL is the programming language that is used for manipulating data such as retrieving, inserting, and modifying records in a Dynamics 365 Business Central database. It controls the execution of the various application objects, such as pages, reports, or codeunits.
-
-With AL, you can create business rules to ensure that the data, which is stored in the database is meaningful and consistent with the way customers do business. Through AL programming, you can:
-
-Every object in Dynamics 365 Business Central contains triggers where you can add your AL code. You can initiate the execution of your AL code from the Actions.
+Ogni oggetto in Dynamics 365 Business Central contiene trigger in cui è possibile aggiungere il proprio codice AL. È possibile avviare l'esecuzione del codice AL tramite le Azioni.
 
 ## Variabili
 Una variabile, in informatica, è un contenitore di dati situato in una porzione di memoria destinata a contenere valori, suscettibili di modifica nel corso dell'esecuzione di un programma. Una variabile è caratterizzata da un nome alfanumerico.
@@ -94,21 +86,13 @@ String += "World";
 ```
 
 ## Costrutti di controllo
-AL code consists of one or more statements, which are executed sequentially in a top-down order. However, you'll often need to control the direct top-down flow of the execution. One or more statements may have to be repeated more than once, or you may have to make the execution of a certain statement conditional. To do so, you use control structures.
-
-The control structures in AL are divided into the following main groups, as described in this article:
-
-* AL compound statements
-* AL conditional statements
-* AL repetitive statements
-
 Il codice AL è composto da una serie di istruzioni, eseguite sequenzialmente in un ordine dall'alto verso il basso. Tuttavia, spesso sarà necessario controllare il flusso dell'esecuzione: le istruzioni potrebbero dover essere ripetute più di una volta, oppure potrebbe essere necessario condizionare il codice. Per farlo, si utilizzano le strutture di controllo. In AL sono divise nei seguenti gruppi principali:
 * Compound statements
 * Conditional statements
 * Repetitive statements
 
 ## Compound statements
-In some cases, the AL syntax only lets you use a single statement. However, if you have to run more than one simple statements, the statements can be written as a compound statement (a block statement) by enclosing the them between the *begin* and *end* keywords.
+In alcuni casi, la sintassi AL consente solo l'uso di una singola istruzione. Tuttavia, se è necessario eseguire più di una semplice istruzione, le istruzioni possono essere scritte come una dichiarazione composta (una dichiarazione di blocco) racchiudendole tra le parole chiave "begin" e "end".
 
 ```al
 begin
@@ -118,7 +102,8 @@ begin
     <Statement n>;  
 end;
 ```
-The individual statements are separated by a semicolon. In AL, a semicolon is used to separate statements and not to terminate them, as in other programming languages. Nevertheless, an extra semicolon before an end doesn't cause an error because it's interpreted by the compiler as an empty statement.
+
+Le singole istruzioni sono separate da un punto e virgola. In AL, il punto e virgola è utilizzato per separare le istruzioni e non per terminarle, come avviene in altri linguaggi di programmazione. Tuttavia, un punto e virgola aggiuntivo prima di una parola chiave "end" non causa un errore perché viene interpretato dal compilatore come un'istruzione vuota.
 
 ## Conditional statements
 Si utilizzano le istruzioni condizionali per specificare una condizione e uno o più comandi da eseguire se la condizione viene valutata come vera o falsa. Esistono due tipi di istruzioni condizionali in AL:
@@ -180,7 +165,7 @@ end;
 ![if statement](/img/business-central/AL1.png)
 
 ### Case statements
-The result of `<Expression>` is matched against each value set and `<Value set>` must be an expression or a range.
+Il risultato di `<Expression>` viene confrontato con ciascun set di valori, e `<Value Set>` deve essere un'espressione o un intervallo.
 
 ```al
 case <Expression> of  
@@ -196,9 +181,9 @@ case <Expression> of
 end;
 ```
 
-used when you must choose between more than two different actions. The method of the case statement is as follows:
-* The `<Expression>` is evaluated, and the first matching value set executes the associated statement, if there's one.
-* If no value set matches, the statement associated with the else clause is executed, if there's one.
+Viene utilizzato quando è necessario scegliere tra più di due azioni diverse. Il metodo dello statement case è il seguente:
+* L'espressione `<Expression>` viene valutata e il primo set di valori corrispondente esegue l'istruzione associata, se presente.
+* Se nessun set di valori corrisponde, viene eseguita l'istruzione associata alla clausola `else`, se presente.
 
 ```al
 case Number of  
@@ -227,7 +212,112 @@ end;
 ```
 
 ## Repetitive statements (Cicli iterativi)
+Un'istruzione ripetitiva è anche nota come loop. Sono utilizzati per eseguire più volte parti di codice in funione di una condizione. Esistono quattro tipi di ciclo in AL:
+* repeat-until
+* while-do
+* for
+* for-each
 
+Nel ciclo **repeat-until**: 
+
+```al
+repeat
+    <Statements>
+until <Condition>
+```
+
+* Le istruzioni sono eseguite fino al verificarsi della condizione.
+* Il ciclo sarà eseguito come minimo una volta (1 to N).
+
+Esempi:
+
+```al
+if x < y then begin
+    repeat
+        x := x + 1;
+        a := a -1;
+    until x = y;
+        b := x;
+end;
+```
+
+```al
+Count := 0;
+if Customer.find('-') then
+repeat
+    Count := Count + 1;
+until Customer.next <= 0;
+message('The Customer table contains %1 record.',Count);
+```
+
+Nel ciclo **while-do**:
+```al
+while <expr> do
+    <Statement>;
+```
+```al
+while <expr> and
+    <expr> and
+    <expr>
+do begin
+    <Statement>;
+    <Statement>;
+end;
+```
+
+Esempi:
+
+```al
+while I < 1000 do
+    I := I + 1;
+message(format(I));
+```
+
+```al
+while Count < 1000 do
+    begin
+    Count := Count + 1;
+    message(FORMAT(Count));
+    if Count = 10 then
+        break;
+    end;
+end;
+```
+
+Il ciclo **for-to** e **for-downto**:
+
+```al
+for <Control Variable> := <Start Number> to <End Number> do
+    <Statement>
+```
+
+```al
+for <Control Variable> := <Start Number> downto <End Number> do
+    <Statement>
+```
+
+* le istruzioni sono eseguite un numero certo di volte (1 to N)
+* l'iterazione è gestita da una variabile di controllo (Integer)
+
+Il ciclo **FOREACH** è usato per scorrere tutti i valori presenti in una "lista".
+
+```al
+foreach <Element> in <List> do <Statement>
+    <Statement>
+```
+
+```al
+procedure PrintCustomerNames(customerNames : List of [Text]);
+var
+    customerName : Text;
+begin
+    foreach customerName in customerNames do
+        message(customerName);
+end;
+```
+
+![cicli iterativi](/img/business-central/al-language/cicli.png)
 
 ## Link utili
 * [Panoramica](https://learn.microsoft.com/it-it/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
+* [Introduzione alla programmazione AL](https://learn.microsoft.com/it-it/training/modules/intro-basics-al-programming/)
