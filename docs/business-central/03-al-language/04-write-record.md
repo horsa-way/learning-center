@@ -1,6 +1,5 @@
 
-# Leggere e modificare i dati
-# Scrivere un record?
+# Scrivere un record
 
 ## Assegnazione dei campi
 L'assegnazione dei valori ai campi di un record avviene attraverso l'operatore di assegnazione `:=`. Puoi assegnare valori a singoli campi o utilizzare la funzione **`Init`** per inizializzare tutti i campi del record. Questo metofo assegna valori predefiniti a ciscun campo del record, incluso il campo SystemId quando viene creata una tabella. Per ogni nuovo ampo aggiunto successivamente al record, i valori vengono inizializzati per impostazione predefinita o utilizzando InitValue Property(). Se al momento della creazione della tabella non è stato assegnato alcun valore, i valori vengono assegnati in base al tipo di dati, come mostrato qui sotto:

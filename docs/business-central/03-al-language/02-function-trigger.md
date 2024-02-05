@@ -52,9 +52,12 @@ L'ambito di visibilità è un concetto che si applica anche alle variabili, e de
 Nella maggior parte dei linguaggi di programmazione esistono due modi di passare parametri alle funzioni:
 * per **valore**, è come se venisse duplicato il valore originale, copiato in una nuova area di memoria che verrà utilizzata dal codice interno alla funzione. Eventuali variazioni al parametro sono visibili unicamente all'interno della funzione. Di default in AL i parametri sono passati per valore.
    Esempio: 
+
    ![Parametri per Valore](/img/business-central/al-language/per-valore.png)
+
 * per **riferimento**, è come se venisse passato il puntamento all'area di memoria in cui è salvato il dato, pertanto chiamante e chiamato leggono e scrivono l'informazione nello stesso posso. Eventuali variazioni al parametro eseguite nella funzione richiamata sono restituite al codice chiamante. I parametri passati per riferimento vanno dichiarati con var.
    Esempio:
+   
    ![Parametri per Riferimento](/img/business-central/al-language/per-riferimento.png)
 
 ### Overloading

@@ -42,34 +42,6 @@ Per accedere ai dati in tabella bisogna dichiarare una variabile di tipo Record 
 * La variabile espone sempre i campi contenenti i valori del record corrente
 * Per leggere altri record devo 'spostarmi' per caricarne i valori
 
-<!---
-#### Tipologia di accessi 
-Alcune possibili tipologie di accessi possono essere:
-1. **Accesso a Dati** (Data Access):
-   * **Lettura** (Read): Ottenere dati da una sorgente di dati come un database o un file.
-   * **Scrittura** (Write): Inserire, aggiornare o eliminare dati da una sorgente di dati.
-2. **Accesso a Risorse di Sistema**:
-   * **Accesso ai File**: Leggere o scrivere dati su file di sistema.
-   * **Accesso alla Rete**: Comunicare con risorse su una rete.
-   * **Accesso all'Hardware**: Interagire con componenti hardware come stampanti o sensori.
-3. **Accesso a Oggetti o Classi**:
-   * **Metodi Pubblici**: Utilizzare i metodi esposti da un oggetto o una classe.
-   * **Proprietà Pubbliche**: Accedere e modificare i valori delle proprietà di un oggetto o una classe.
-4. **Accesso ai Servizi Esterni**:
-   * **API**: Utilizzare interfacce di programmazione esterne per accedere a funzionalità o dati di servizi remoti.
-   * **Web Services**: Comunicare con servii web attraverso protocolli come HTTP.
-5. **Accesso alle Applicazioni**:
-   * **Interfaccia Utente (UI)**: Interagire con un'applicazione attraverso la sua interfaccia grafica.
-   * **Accesso a Moduli o Componenti**: Utilizzare funzionalità specifiche fornire da moduli o componenti software.
-6. **Accesso ai Dati Utente**:
-   * **Autenticazione**: Ottenere l'accesso a un sistema o un'applicazione verificando l'identità dell'utente.
-   * **Autorizzazione**: Determinare quali azioni o risorse un utente ha il permesso di accedere.
-7. **Accesso ai Dati in Tempo Reale**:
-   * **Streaming**: Accedere a dati in tempo reale provenienti da flussi continui come sensori o eventi in tempo reale.
-8. **Accesso Concorrente o Multithreading**:
-   * **Accesso Concorrente a Dati Condivisi**: Gestire l'accesso simultaneo da parte di più processi o thread a risorse condivise.
--->
-
 ## Get: accesso diretto
 L'accesso ai dati può avvenire per accesso diretto al record (quando ne conosco la chiave primaria) utilizzando il comando:
 **GET(campo/i chiave)**

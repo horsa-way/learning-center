@@ -248,27 +248,6 @@ Ogni inserimento in un dizionario è composto da un valore e dalla chiave corris
 È importante notare che il tipo di dato Dictionary non consente la conservazione di record istanziati. Per tale scopo, si consiglia di utilizzare tabelle temporanee.
 
 ## InStream e OutStream
-<!--- Si tratta di un oggetto flusso generico che può essere impiegato per la lettura o la scrittura di file e BLOB. La struttura interna di un flusso può essere definita come un flusso semplice di byte. È inoltre possibile assegnare un flusso a un altro, consentendo operazioni di trasferimento.
-
-La lettura e la scrittura su un flusso si svolgono in sequenza. I seguenti metodi sono disponibili sulle istanze del tipo di dati InStream:
-
-| Nome del metodo | Descrizione |
-| - | - |
-| EOS() | Indica se un flusso di input ha raggiunto la fine del flusso (EOS). |
-| Lenght() | Ottiene la lunghezza del flusso. |
-| Position([BigInteger]) | Ottieni o imposta la posizione corrente del flusso nei flussi ricercabili. |
-| Read(var Boolean [, Integer]) | Legge un numero specificato di byte da un oggetto InStream. I dati vengono letti in formato binario. |
-| Read(var Byte [, Integer]) | Legge un numero specificato di byte da un oggetto InStream. I dati vengono letti in formato binario. |
-| Read(var Char [, Integer]) | Legge un numero specificato di byte da un oggetto InStream. I dati vengono letti in formato binario. |
-| Read(var Integer [, Integer]) | Legge un numero specificato di byte da un oggetto InStream. I dati vengono letti in formato binario. |
-| Read(var BigInteger [, Integer]) | Legge un numero specificato di byte da un oggetto InStream. I dati vengono letti in formato binario. |
-| Read(var Decimal [, Integer]) | Legge un numero specificato di byte da un oggetto InStream. I dati vengono letti in formato binario. |
-| Read(var Guid [, Integer]) | Legge un numero specificato di byte da un oggetto InStream. I dati vengono letti in formato binario. |
-| Read(var Text [, Integer]) | Legge un numero specificato di byte da un oggetto InStream. I dati vengono letti in formato binario. |
-| Read(var Any [, Integer]) | Legge un numero specificato di byte da un oggetto InStream. I dati vengono letti in formato binario. |
-| ReadText(var Text [, Integer]) | Legge il testo da un oggetto InStream. |
-| ResetPosition() | Reimposta la posizione del flusso su un oggetto InStream. | --->
-
 Il tipo di dato `InStream` è utilizzato per gestire flussi di dati in input. Questi flussi possono essere utilizzati per leggere dati da file o altre fonti di input. Ecco alcuni metodi disponibili sulle istanze del tipo di dato `InStream`:
 
 1. **READ(Record, Length):** Legge una quantità specifica di dati dal flusso e li assegna a un record.
@@ -294,30 +273,3 @@ Il tipo di dato `OutStream` è utilizzato per gestire flussi di dati in output. 
 8. **WRITEVARIANT(Variant):** Scrive una quantità di dati dalla variabile di tipo Variant nel flusso.
 
 Questi metodi consentono di manipolare i dati nei flussi durante l'esecuzione di operazioni di scrittura in Microsoft Dynamics 365 Business Central. Sono utilizzati per generare output o salvare dati in file e altre destinazioni di output.
-
-<!--- | Nome del metodo |	Descrizione |
-| - | - |
-| Write(Variant [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Boolean [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Byte [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Char [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Integer [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(BigInteger [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Decimal [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Guid [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Text [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Code [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Label [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(TextConst [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(BigText [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Date [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario.  |
-| Write(Time [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(DateTime [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(DateFormula [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Duration [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Option [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Record [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(RecordId [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Text [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| Write(Any [, Integer]) | Scrive un numero specificato di byte nel flusso. I dati sono scritti in formato binario. |
-| WriteText([Text] [, Integer]) | Scrive testo in un oggetto OutStream. | --->
