@@ -6,7 +6,7 @@ const FeatureList = [
     {
         title: 'Business Central',
         Img: require('@site/static/img/home-business-central.png').default,
-        link: '/docs/business-central/intro',
+        link: '/docs/business-central/Introduzione/intro',
         description: (
             <>
                 Corso base e avanzato per imparare a sviluppare su Microsoft Business Central.
