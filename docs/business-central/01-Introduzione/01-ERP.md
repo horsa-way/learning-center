@@ -1,5 +1,8 @@
+---
+sidebar_label: 'ERP'
+---
 
-# Introduzione agli ERP
+# ERP: Enterprise Resource Planning
 
 <!--- Materiale per il corso di formazione Business Central di Horsa Way. -->
 
