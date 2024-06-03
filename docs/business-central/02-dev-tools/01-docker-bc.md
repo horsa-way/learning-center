@@ -22,7 +22,7 @@ Un container Docker può essere usato solo in un ambiente di sviluppo, non in pr
 Aprire **Windows PowerShell** come amministratore, ed installare Hyper-V eseguendo il seguente comando:
 
 ```
-1 Enable-WindowsOptionalFeature -Online -FeatureName Hyper-V
+Enable-WindowsOptionalFeature -Online -FeatureName Hyper-V
 ```
 
 Nel caso in cui il comando non funzionasse, attivare la funzionalità cercando su start **Funzionalità Windows** e abilitandola da lì:
@@ -69,7 +69,7 @@ Per creare un nuovo contenitore Business Central, è possibile usare il cmdlet [
 Il comando **Remove-BcContainer** consente di rimuovere un contenitore in modo semplice:
 
 ```
-1 Remove-BCContainer -containerName MyDevContainer
+Remove-BCContainer -containerName MyDevContainer
 ```
 
 ### Creazione guidata
@@ -133,39 +133,39 @@ Un contenitore offre un modo efficace per compilare un'estensione in uno scenari
 Usare il cmdlet **Compile-AppInBcContainer** per compilare l'estensione, il risultato finale è la generazione di un file **.app**.
 
 ```
-1 Compile-AppInBCContainer -containerName MyDevContainer
-2                          -appProjectFolder c:\AL\Demo\
+Compile-AppInBCContainer -containerName MyDevContainer
+                           -appProjectFolder c:\AL\Demo\
 ```
 
  Dopo aver compilato un'app, è possibile pubblicarla in un contenitore tramite **Publish-BcContainerApp**:
 
 ```
-1 Publish-BcContainerApp -containerName MyTestContainer
-2                       -appFile "c:\AL\Demo\Cronus_Demo_1.0.0.0.app"
-3                       -skipVerification # serve se l'app non è firmata
-4                       -sync
-5                       -install # installa anche l'estensione
+Publish-BcContainerApp -containerName MyTestContainer
+                        -appFile "c:\AL\Demo\Cronus_Demo_1.0.0.0.app"
+                        -skipVerification # serve se l'app non è firmata
+                        -sync
+                        -install # installa anche l'estensione
 ```
 
 ### Utilizzo su Visual Studio Code
 L'utilizzo sull'ambiente di sviluppo è uguale a qualsiasi altro ambiente di BC, dobbiamo solo fare attenzione al launch.json:
 
  ```
-1  {
-2     "version": "0.2.0",
-3     "configurations": [
-4         {
-5             "name": "Container Launch",
-6             "request": "launch",
-7             "type": "al",
-8             "environmentType": "Sandbox",
-9             "server": "http://<nome_container>/",
-10            "serverInstance": "BC",
-11            "tenant": "default",
-12            "authentication": "UserPassword"
-13        }
-14    ]
-15 }
+{
+   "version": "0.2.0",
+   "configurations": [
+       {
+           "name": "Container Launch",
+           "request": "launch",
+           "type": "al",
+           "environmentType": "Sandbox",
+           "server": "http://<nome_container>/",
+           "serverInstance": "BC",
+           "tenant": "default",
+           "authentication": "UserPassword"
+       }
+   ]
+}
 ```
 
 Quando chiede le credenziali, utilizzare quelle impostate alla generazione del container.
@@ -174,7 +174,7 @@ Quando chiede le credenziali, utilizzare quelle impostate alla generazione del c
 È possibile ottenere la lista di comandi del modulo tramite:
 
 ```
-1 Get-Command -Module BcContainerHelper
+Get-Command -Module BcContainerHelper
 ```
 
 [Qui](https://ricardopaiva.github.io/cheatsheet/business-central-bccontainerhelper-cheat-sheet/ è possibile trovare una lista documentata.
@@ -183,7 +183,7 @@ Quando chiede le credenziali, utilizzare quelle impostate alla generazione del c
 Il container sandbox accetta la pubblicazione di app con target diverso dal "Cloud" (quindi anche app che contengono codice .NET). Per fare in modo che il container sandbox accetti solo app con target "Cloud", utilizzare il seguente comando:
 
 ```
-1 Set-BcContainerServerConfiguration -ContainerName $containerName -keyName ExtensionAllowedTargetLevel -keyValue Cloud
+Set-BcContainerServerConfiguration -ContainerName $containerName -keyName ExtensionAllowedTargetLevel -keyValue Cloud
 ```
 
 Abbiamo quindi la possibilità di scegliere che tipo di container utilizzare se SandBox o OnPrem, di seguito le differenze:
